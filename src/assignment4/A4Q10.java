@@ -105,12 +105,12 @@ public class A4Q10 extends javax.swing.JFrame {
     private void cToFActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cToFActionPerformed
         // TODO add your handling code here:
         //grab cel as a string then convert to a double
-         String celsius = celText.getText();
+        String celsius = celText.getText();
         double cel = Double.parseDouble(celsius);
-        
+
         //convert to celsius
-        double fahOutput = (((cel *9)/5) + 32);
-        
+        double fahOutput = (((cel * 9) / 5) + 32);
+
         //output in cel box
         fahText.setText(fahOutput + "");
     }//GEN-LAST:event_cToFActionPerformed
@@ -120,10 +120,10 @@ public class A4Q10 extends javax.swing.JFrame {
         //grab Fahrenheit temp as a string and convert to integer
         String fahrenheit = fahText.getText();
         double fah = Double.parseDouble(fahrenheit);
-        
+
         //convert to celsius
-        double celOutput = (((fah - 32)*5)/9);
-        
+        double celOutput = (((fah - 32) * 5) / 9);
+
         //output in cel box
         celText.setText(celOutput + "");
     }//GEN-LAST:event_fToCActionPerformed

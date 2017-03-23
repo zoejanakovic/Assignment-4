@@ -24,6 +24,6 @@ public class A4Q1 {
         String name = input.nextLine();
         //say hello their name and how are you today
         System.out.println("Hello " + name + ". How are you today?");
-        
+
     }
 }

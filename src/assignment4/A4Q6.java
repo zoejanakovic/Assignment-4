@@ -38,10 +38,10 @@ public class A4Q6 {
         } else if (difference < 0 && difference >= -20) {
             System.out.println("You are speeding and your fine is $100.");
             //if difference <-20 and >= -30 $270
-        } else if (difference < -20 && difference >= -30){
+        } else if (difference < -20 && difference >= -30) {
             System.out.println("You are speeding and your fine is $270.");
             //if difference <-30 $500
-        } else if (difference < -30){
+        } else if (difference < -30) {
             System.out.println("You are speeding and your fine is $500.");
         }
     }

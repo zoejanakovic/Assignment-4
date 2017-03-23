@@ -19,20 +19,20 @@ public class A4Q3 {
         // TODO code application logic here
         //scanner to get user input
         Scanner input = new Scanner(System.in);
-        
+
         //ask user to input 4 numbers
         System.out.println("Please enter in four numbers on seperate lines.");
-        
+
         //scan numbers into variables
         double first = input.nextDouble();
         double second = input.nextDouble();
         double third = input.nextDouble();
         double fourth = input.nextDouble();
-        
+
         //output the numbers on one line
         System.out.println("Your numbers were " + first + ", " + second + ", " + third + ", and " + fourth);
-        
-        
-        
+
+
+
     }
 }

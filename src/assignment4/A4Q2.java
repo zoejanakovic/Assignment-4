@@ -23,11 +23,11 @@ public class A4Q2 {
         //scan name into a variable
         double inches = input.nextDouble();
         //convert to cm
-        double cm = 2.54*inches;
-        
+        double cm = 2.54 * inches;
+
         System.out.println(inches + " inches is the same as " + cm + " cm");
-        
-        
-        
+
+
+
     }
 }

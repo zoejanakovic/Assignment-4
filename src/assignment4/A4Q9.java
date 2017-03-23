@@ -154,14 +154,14 @@ public class A4Q9 extends javax.swing.JFrame {
         //grab first and second number as a string
         String first = firstInput.getText();
         String second = secondInput.getText();
-        
+
         //convert strings to integers
         int firstNumber = Integer.parseInt(first);
         int secondNumber = Integer.parseInt(second);
-        
+
         //calculate
-        int mul = firstNumber*secondNumber;
-        
+        int mul = firstNumber * secondNumber;
+
         //output result
         output.setText(mul + "");
     }//GEN-LAST:event_mulButtonActionPerformed
@@ -171,18 +171,18 @@ public class A4Q9 extends javax.swing.JFrame {
     }//GEN-LAST:event_firstInputActionPerformed
 
     private void addButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_addButtonActionPerformed
-         // TODO add your handling code here:
+        // TODO add your handling code here:
         //grab first and second number as a string
         String first = firstInput.getText();
         String second = secondInput.getText();
-        
+
         //convert strings to integers
         int firstNumber = Integer.parseInt(first);
         int secondNumber = Integer.parseInt(second);
-        
+
         //calculte
         int add = firstNumber + secondNumber;
-        
+
         //output result
         output.setText(add + "");
     }//GEN-LAST:event_addButtonActionPerformed
@@ -192,14 +192,14 @@ public class A4Q9 extends javax.swing.JFrame {
         //grab first and second number as a string
         String first = firstInput.getText();
         String second = secondInput.getText();
-        
+
         //convert strings to integers
         int firstNumber = Integer.parseInt(first);
         int secondNumber = Integer.parseInt(second);
-        
+
         //calculate
         int sub = firstNumber - secondNumber;
-        
+
         //output result
         output.setText(sub + "");
     }//GEN-LAST:event_subButtonActionPerformed
@@ -209,14 +209,14 @@ public class A4Q9 extends javax.swing.JFrame {
         //grab first and second number as a string
         String first = firstInput.getText();
         String second = secondInput.getText();
-        
+
         //convert strings to integers
         int firstNumber = Integer.parseInt(first);
         int secondNumber = Integer.parseInt(second);
-        
+
         //calculate
-        int div = firstNumber/secondNumber;
-        
+        int div = firstNumber / secondNumber;
+
         //output result
         output.setText(div + "");
     }//GEN-LAST:event_divButtonActionPerformed
